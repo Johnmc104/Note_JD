@@ -1,3 +1,8 @@
+From:http://blog.csdn.net/lutinghuan/article/details/7475026
+
+要点：
+    链表栈
+
 -------------------------------
    LinkSatck.c 中还有问题
 -------------------------------

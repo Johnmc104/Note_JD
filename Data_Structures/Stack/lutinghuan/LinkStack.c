@@ -2,6 +2,8 @@
 #include <malloc.h>
 #include "LinkStack.h"
 
+#define NULL ((void *)0)
+
 PLinkStack createEmptyStack(void)
 {
     PLinkStack stack=(PLinkStack)malloc(sizeof(struct LinkStack));
@@ -56,7 +58,7 @@ DataType getTop(PLinkStack stack)
     if(isEmptyStack(stack))
     {
         printf("栈为空！取栈顶元素失败！\n");
-        return 0;//NULL
+        return NULL;//NULL
 
     }
     return (stack -> top -> info);
